@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './home/home';
 import Post from './post/post';
 import Header from './layout/header';
+import Footer from './layout/footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='/blog' element = {<Post />} />
           </Routes>
         </main>
+        <Footer/>
       </div>
     </div>
   );

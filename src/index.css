@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 .body{
-  min-height : 100vh;
+  min-height : 1200px !impotent;
 }
 
 .title{
   font-weight : 700;
-  font-size : 2ren;
+  font-size : 2rem;
   color : #fbf8f9;
 }
 
@@ -17,4 +17,14 @@
 }
 .header-color {
   background-color : #7CC3E7;
+}
+.bg-muted {
+  background-color : #f4f4f5;
+}
+.textmuted {
+  background-color : #6e6e77;
+}
+.bg-footer {
+  background-color:#f4f4f5;
+  coloer : #6e6e77;
 }
