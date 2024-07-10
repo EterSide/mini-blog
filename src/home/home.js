@@ -5,9 +5,9 @@ import Career from "./career";
 export default function Home(){
 
     const careerList = [
-        { title : "제목1", subTitle : "부제목1", date : "날짜1", comment : "댓글1"},
-        { title : "제목2", subTitle : "부제목2", date : "날짜2", comment : "댓글2"},
-        { title : "제목3", subTitle : "부제목3", date : "날짜3", comment : "댓글3"}
+        { title : "블로그에 들어왔으면 이글부터봐라", subTitle : "이글", date : "2024-07-10", comment : "이글이글"},
+        { title : "제목2", subTitle : "부제목2", date : "날짜2", comment : "코멘트2"},
+        { title : "제목3", subTitle : "부제목3", date : "날짜3", comment : "코멘트3"}
     ]
 
     return (
