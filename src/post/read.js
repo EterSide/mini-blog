@@ -22,7 +22,7 @@ export default function Read() {
     return (
         <div className="py-4 px-4 text-center">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                {markdown};
+                {markdown}
             </ReactMarkdown>
         </div>
     );
