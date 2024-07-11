@@ -6,7 +6,7 @@ export default function Post(){
 
     const markdowFiles= [
         {name : "글1", content : "내용1"},
-        {name : "글2", content : "내용2"}
+        {name : "글테스트", content : "내용2"}
     ]
 
 
